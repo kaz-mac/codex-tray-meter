@@ -3,6 +3,8 @@
 Windowsの通知領域で、Codexの使用率・残量・リセットまでの時間を確認する小さな常駐アプリです。
 OpenAIの非公式アプリです。
 
+![sample](image/sample.webp)
+
 ## 動作環境
 
 - Windows 11 x64
