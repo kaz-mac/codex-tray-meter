@@ -70,8 +70,7 @@ internal sealed class TrayApplicationContext : ApplicationContext
         reading = true;
         refreshItem.Enabled = false;
         connectionStatus = "取得中";
-        // 古い値を最新の実データとして見せない。
-        snapshot = new("取得中", []);
+        // 更新中は直前の取得結果を維持し、成功時に新しい結果へ差し替える。
         UpdateDisplay();
         try
         {
@@ -250,6 +249,7 @@ internal sealed class TrayApplicationContext : ApplicationContext
         base.Dispose(disposing);
     }
 }
+
 
 
 

@@ -16,6 +16,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Remove="tests/**/*.cs" />
+    <Compile Remove="tests/**/*.cs;artifacts/**/*.cs" />
   </ItemGroup>
 </Project>
+
