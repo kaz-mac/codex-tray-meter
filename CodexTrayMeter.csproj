@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SelfContained>false</SelfContained>
+    <AssemblyName>CodexTrayMeter</AssemblyName>
+    <RootNamespace>CodexTrayMeter</RootNamespace>
+    <Product>Codex Tray Meter</Product>
+    <Title>Codex Tray Meter</Title>
+    <Description>Codex usage and remaining quota in the Windows system tray.</Description>
+    <Version>1.0.0</Version>
+    <Copyright>Copyright (c) 2026 Codex Tray Meter contributors</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="tests/**/*.cs" />
+  </ItemGroup>
+</Project>
