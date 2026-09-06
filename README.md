@@ -5,6 +5,8 @@ OpenAIの非公式アプリです。
 
 ![sample](image/sample.webp)
 
+本リポジトリの全てのプログラムおよびドキュメント等はAIで作成しています。
+
 ## 動作環境
 
 - Windows 11 x64
